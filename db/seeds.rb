@@ -5,3 +5,33 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Company.create(
+  name: "Opendoor",
+  website: "https://www.opendoor.com",
+  notes: "Working at Opendoor; great team; strong growth; huge market",
+  product: "Buy/sell your home online",
+  stage: "Mid-size",
+  investors: "KV, GGV",
+  location: "SF"
+)
+
+Company.create(
+  name: "Ycombinator",
+  website: "https://www.ycombinator.com",
+  notes: "Hiring hackers; network effect; strong growth; great team",
+  product: "Startup funding and advice  ",
+  stage: "Early",
+  investors: "Sequoia",
+  location: "SF/MTV"
+)
+
+Company.create(
+  name: "Opendoor",
+  website: "https://www.opendoor.com",
+  notes: "Working at Opendoor; great team; strong growth; huge market",
+  product: "Buy/sell your home online",
+  stage: "Mid-size",
+  investors: "KV, GGV",
+  location: "SF"
+)
