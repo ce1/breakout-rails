@@ -14,6 +14,7 @@ Company.create(
   stage: "Mid-size",
   investors: "KV, GGV",
   location: "SF",
+  tag: "Breakout"
 )
 
 Company.create(
@@ -23,7 +24,8 @@ Company.create(
   product: "Startup funding and advice  ",
   stage: "Early",
   investors: "Sequoia",
-  location: "SF/MTV"
+  location: "SF/MTV",
+  tag: "Breakout"
 )
 
 Company.create(
@@ -33,7 +35,8 @@ Company.create(
   product: "Fundraising and recruiting for startups",
   stage: "Early",
   investors: "Atlas, GV",
-  location: "SF/NYC"
+  location: "SF/NYC",
+  tag: "Breakout"
 )
 
 Company.create(
@@ -43,37 +46,8 @@ Company.create(
   product: "Online content",
   stage: "Mid-size",
   investors: "Greylock, A16Z",
-  location: "SF"
-)
-
-Company.create(
-  name: "",
-  website: "https://www..com",
-  notes: "",
-  product: "",
-  stage: "",
-  investors: "",
-  location: ""
-)
-
-Company.create(
-  name: "",
-  website: "https://www..com",
-  notes: "",
-  product: "",
-  stage: "",
-  investors: "",
-  location: ""
-)
-
-Company.create(
-  name: "",
-  website: "https://www..com",
-  notes: "",
-  product: "",
-  stage: "",
-  investors: "",
-  location: ""
+  location: "SF",
+  tag: "Breakout"
 )
 
 Company.create(
@@ -83,18 +57,10 @@ Company.create(
   product: "Accommodation",
   stage: "Late",
   investors: "Sequoia, Greylock, A16Z",
-  location: "SF"
+  location: "SF",
+  tag: "Foundational"
 )
 
-Company.create(
-  name: "",
-  website: "https://www..com",
-  notes: "",
-  product: "",
-  stage: "",
-  investors: "",
-  location: ""
-)
 
 Company.create(
   name: "Uber",
@@ -103,7 +69,8 @@ Company.create(
   product: "Car rides",
   stage: "Late",
   investors: "FRC, Benchmark, Menlo",
-  location: "SF, Pittsbourgh"
+  location: "SF, Pittsbourgh",
+  tag: "Foundational"
 )
 
 Company.create(
@@ -113,6 +80,7 @@ Company.create(
   product: "Stealth",
   stage: "Very early",
   investors: "8VC",
-  location: "SF"
+  location: "SF",
+  tag: "Future Breakout"
 )
 
