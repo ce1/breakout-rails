@@ -1,17 +1,36 @@
-<h1>Durchbruch-Liste</h1>
-<p>Find me in app/views/companies/index.html.erb</p>
+<h1>Durchbruch-Liste 🇩🇪📈</h1>
+<p>Really helpful content could be insert here. If someone comes up with it. -Christian</p>
 
-<h2>Die Durchbruch-Liste, 2017</h2>
-<p>more than $5mm gross profit (roughly revenue minus cost of goods sold) in 2017, not run rate. likely to 8x by 2020. defensible. if not monetizing yet, based on public comparables (biased source: investors)</p>
+<% if current_page?(controller: 'companies') %>
+  <p>HELLO HELLO HELL</p>
+<% end %>
+
+<h3 id="breakout-list">Die Durchbruch-Liste, 2017</h3>
+<p class="text-muted">more than $5mm gross profit (roughly revenue minus cost of goods sold) in 2017, not run rate. likely to 8x by 2020. defensible. if not monetizing yet, based on public comparables (biased source: investors)</p>
+
+<div class="row list-switcher">
+  <div class="col-md-3">
+    <a href="#breakout-list" class="active btn btn-xs btn-default btn-default-blue btn-block">Breakouts</a>
+  </div>
+  <div class="col-md-3">
+    <a href="#future-list" class="btn btn-xs btn-default btn-default-blue btn-block">Future Breakouts</a>
+  </div>
+  <div class="col-md-3">
+    <a href="#foundational-list" class="btn btn-xs btn-default btn-default-blue btn-block">Foundational</a>
+  </div>
+  <div class="col-md-3">
+    <a href="#resource-list" class="btn btn-xs btn-default btn-default-blue btn-block">Resources</a>
+  </div>
+</div>
 <%= render partial: "table", locals: {companies: @companies.where(tag: "Breakout")} %>
 
-<h2>Future Breakouts 2017</h2>
-<p>Companies where data makes us expect they will be on the 2018 Breakout List</p>
+<h3 id="future-list">Future Breakouts 2017</h3>
+<p class="text-muted">Companies where data makes us expect they will be on the 2018 Breakout List</p>
 <%= render partial: "table", locals: {companies: @companies.where(tag: "Future Breakout")} %>
 
-<h2>Foundational List 2017</h2>
-<p>Can be $100bn companies with minimal product changes by 2026.</p>
+<h3 id="foundational-list">Foundational List 2017</h3>
+<p class="text-muted">Can be $100bn companies with minimal product changes by 2026.</p>
 <%= render partial: "table", locals: {companies: @companies.where(tag: "Foundational")} %>
 
-<h2>Resource List</h2>
+<h3 id="resource-list">Resource List</h3>
 <p>Be relentlessly resourceful.</p>
