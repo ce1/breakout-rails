@@ -3,31 +3,15 @@
 
 <h2>Die Durchbruch-Liste, 2017</h2>
 <p>more than $5mm gross profit (roughly revenue minus cost of goods sold) in 2017, not run rate. likely to 8x by 2020. defensible. if not monetizing yet, based on public comparables (biased source: investors)</p>
+<%= render partial: "table", locals: {companies: @companies.where(stage: "Early")} %>
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Notes</th>
-      <th>Product</th>
-      <th>Stage</th>
-      <th>Tags</th>
-      <th>Investors</th>
-      <th>Location</th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @companies.each do |c|%>
-      <tr>
-        <td data-label="Company"><%= c.name %></td>
-        <td data-label="Notes"><%= c.notes %></td>
-        <td data-label="Product"><%= c.product %></td>
-        <td data-label="Stage"><%= c.stage %></td>
-        <td data-label="Tags"></td>
-        <td data-label="Investors"><%= c.investors %></td>
-        <td data-label="Location"><%= c.location %></td>
-      </tr>
-    <% end %>
-  </tbody>
+<h2>Future Breakouts 2017</h2>
+<p>Companies where data makes us expect they will be on the 2018 Breakout List</p>
+<%= render partial: "table", locals: {companies: @companies} %>
 
-</table>
+<h2>Foundational List 2017</h2>
+<p>Can be $100bn companies with minimal product changes by 2026.</p>
+<%= render partial: "table", locals: {companies: @companies} %>
+
+<h2>Resource List</h2>
+<p>Be relentlessly resourceful.</p>

@@ -13,7 +13,7 @@ Company.create(
   product: "Buy/sell your home online",
   stage: "Mid-size",
   investors: "KV, GGV",
-  location: "SF"
+  location: "SF",
 )
 
 Company.create(
@@ -27,11 +27,92 @@ Company.create(
 )
 
 Company.create(
-  name: "Opendoor",
-  website: "https://www.opendoor.com",
-  notes: "Working at Opendoor; great team; strong growth; huge market",
-  product: "Buy/sell your home online",
+  name: "Angellist",
+  website: "https://www.angellist.com",
+  notes: "Working at AngelList; exceptional team; strong growth; growing market; incl PH subset",
+  product: "Fundraising and recruiting for startups",
+  stage: "Early",
+  investors: "Atlas, GV",
+  location: "SF/NYC"
+)
+
+Company.create(
+  name: "Medium",
+  website: "https://www.medium.com",
+  notes: "Strong growth; large market ",
+  product: "Online content",
   stage: "Mid-size",
-  investors: "KV, GGV",
+  investors: "Greylock, A16Z",
   location: "SF"
 )
+
+Company.create(
+  name: "",
+  website: "https://www..com",
+  notes: "",
+  product: "",
+  stage: "",
+  investors: "",
+  location: ""
+)
+
+Company.create(
+  name: "",
+  website: "https://www..com",
+  notes: "",
+  product: "",
+  stage: "",
+  investors: "",
+  location: ""
+)
+
+Company.create(
+  name: "",
+  website: "https://www..com",
+  notes: "",
+  product: "",
+  stage: "",
+  investors: "",
+  location: ""
+)
+
+Company.create(
+  name: "Airbnb",
+  website: "https://www.airbnb.com",
+  notes: "Great network effect; strong growth; huge market",
+  product: "Accommodation",
+  stage: "Late",
+  investors: "Sequoia, Greylock, A16Z",
+  location: "SF"
+)
+
+Company.create(
+  name: "",
+  website: "https://www..com",
+  notes: "",
+  product: "",
+  stage: "",
+  investors: "",
+  location: ""
+)
+
+Company.create(
+  name: "Uber",
+  website: "https://www.uber.com",
+  notes: "Working at Uber; strong growth; go to the Uber ATC or Otto teams",
+  product: "Car rides",
+  stage: "Late",
+  investors: "FRC, Benchmark, Menlo",
+  location: "SF, Pittsbourgh"
+)
+
+Company.create(
+  name: "Shogun Inc.",
+  website: "https://www.shogun.com",
+  notes: "Read: Interview with the CEO",
+  product: "Stealth",
+  stage: "Very early",
+  investors: "8VC",
+  location: "SF"
+)
+
